@@ -23,8 +23,8 @@ beyonce.name = "Beyonce"
 
 puts  beyonce.name
 
-singer = Person.job("singer")
+singer = Person.job
 
-beyonce.job
+beyonce.job = "Singer"
 
 puts beyonce.job
