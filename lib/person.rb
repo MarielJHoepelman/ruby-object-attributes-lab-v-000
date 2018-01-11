@@ -17,9 +17,9 @@ class Person
   end
 end
 
-beyonce = Person.new("Beyonce")
+beyonce = Person.new
 
-beyonce.name
+beyonce.name = "Beyonce"
 
 puts  beyonce.name
 
