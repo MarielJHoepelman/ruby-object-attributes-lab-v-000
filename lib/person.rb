@@ -19,8 +19,8 @@ beyonce.name
 
 puts  beyonce.name
 
-Person.job
+singer = Person.job("singer")
 
-beyonce.job = "singer"
+beyonce.job
 
 puts beyonce.job
