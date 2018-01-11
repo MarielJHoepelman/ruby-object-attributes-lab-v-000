@@ -23,6 +23,6 @@ fido.name = "fido"
 
 puts fido.name
 
-fido.breed = "poodle"
+fido.breed
 
 puts fido.breed
