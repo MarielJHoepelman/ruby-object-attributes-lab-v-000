@@ -1,6 +1,6 @@
 class Dog
 
-  def instance_variable_set(:@name)
+  def instance_variable_set( :@name)
     @name = name
   end
 
@@ -10,4 +10,4 @@ class Dog
 end
 
 fido = dog.new("Fido")
-fido.name
+fido.instance_variable_set
