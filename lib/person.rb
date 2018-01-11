@@ -8,8 +8,8 @@ class Person
     @name
   end
 
-  def job=(singer)
-    @job = singer
+  def job=(person_job)
+    @job = person_job
   end
 end
 
