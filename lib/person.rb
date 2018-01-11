@@ -16,15 +16,15 @@ class Person
     @job
   end
 end
-
-beyonce = Person.new("Beyonce")
-
-beyonce.name
-
-puts  beyonce.name
-
-singer = Person.job("singer")
-
-beyonce.job
-
-puts beyonce.job
+# 
+# beyonce = Person.new("Beyonce")
+# 
+# beyonce.name
+# 
+# puts  beyonce.name
+# 
+# singer = Person.job("singer")
+# 
+# beyonce.job
+# 
+# puts beyonce.job
