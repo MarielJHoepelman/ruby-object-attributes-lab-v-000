@@ -16,13 +16,13 @@ class Person
     @job
   end
 end
-
-beyonce = Person.new
-
-beyonce.name = "Beyonce"
-
-puts  beyonce.name
-
-beyonce.job = "Singer"
-
-puts beyonce.job
+#
+# beyonce = Person.new
+#
+# beyonce.name = "Beyonce"
+#
+# puts  beyonce.name
+#
+# beyonce.job = "Singer"
+#
+# puts beyonce.job
