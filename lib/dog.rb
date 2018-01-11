@@ -1,7 +1,7 @@
 class Dog
 
-  def instance_variable_get(name)
-    @name = name
+  def name=(dog_name)
+    @name = dog_name
   end
 
   def name
@@ -9,6 +9,8 @@ class Dog
   end
 end
 
-fido = Dog.new("Fido")
+fido = Dog.new
 
-fido.instance_variable_set(:@name)
+fido.name = "fido"
+
+puts fido.name
