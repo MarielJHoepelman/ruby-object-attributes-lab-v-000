@@ -10,4 +10,5 @@ class Dog
 end
 
 fido = dog.new("Fido")
+
 fido.instance_variable_set
