@@ -1,6 +1,6 @@
 class Dog
 
-  def initialize(name)
+  def instance_variable_set(:@name)
     @name = name
   end
 
