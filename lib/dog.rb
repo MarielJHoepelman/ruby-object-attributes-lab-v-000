@@ -16,13 +16,3 @@ class Dog
     @breed
   end
 end
-
-# fido = Dog.new
-#
-# fido.name = "Fido"
-#
-# puts fido.name
-#
-# fido.breed = "Poodle"
-#
-# puts fido.breed
