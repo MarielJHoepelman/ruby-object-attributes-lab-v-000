@@ -13,14 +13,14 @@ class Person
   end
 end
 
-mariel = Person.new("mariel")
+ beyonce = Person.new("Beyonce")
 
-mariel.name
+beyonce.name
 
-puts  mariel.name
+puts  beyonce.name
 
-navigator = Person.job
+singer = Person.job
 
-mariel.job = "navigator"
+beyonce.job = "singer"
 
-puts mariel.job 
+puts beyonce.job 
