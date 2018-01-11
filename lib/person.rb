@@ -8,8 +8,8 @@ class Person
     @name
   end
 
-  def job=(person_job)
-    @job = person_job
+  def job=(singer)
+    @job = singer
   end
 end
 
@@ -19,7 +19,7 @@ beyonce.name
 
 puts  beyonce.name
 
-singer = Person.job
+Person.job
 
 beyonce.job = "singer"
 
